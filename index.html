@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Details</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <h2>Student Details</h2>
+    <form id="studentForm">
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="number" id="age" placeholder="Age" required>
+      <input type="number" id="registerNumber" placeholder="Register Number" required>
+      <input type="number" id="emis" placeholder="EMIS" required>
+      <input type="number" id="admissionNumber" placeholder="Admission Number" required>
+      <input type="date" id="dob" required>
+      <input type="email" id="gmail" placeholder="Gmail ID" required>
+      <input type="date" id="dateOfJoin" placeholder="Date of Join" required>
+      <input type="date" id="dateOfLeave" placeholder="Date of Leave">
+      <input type="file" id="photo" accept="image/*" required>
+      <img id="preview" src="#" alt="Preview Image">
+      <button type="submit">Submit</button>
+    </form>
+
+    <table id="studentTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Register Number</th>
+          <th>EMIS</th>
+          <th>Admission Number</th>
+          <th>Date of Birth</th>
+          <th>Gmail ID</th>
+          <th>Date of Join</th>
+          <th>Date of Leave</th>
+          <th>Photo</th>
+        </tr>
+      </thead>
+      <tbody id="studentTableBody"></tbody>
+    </table>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
