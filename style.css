@@ -1,3 +1,4 @@
+/* CSS styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -8,25 +9,33 @@ body {
   height: 100vh;
   background-color: #f0f0f0;
 }
+
 #container {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 form {
   display: flex;
   flex-direction: column;
 }
-input[type="text"], input[type="number"], input[type="date"], input[type="email"] {
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"] {
   margin-bottom: 10px;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
 input[type="file"] {
   margin-bottom: 10px;
 }
+
 button {
   padding: 10px 20px;
   background-color: #007bff;
@@ -35,26 +44,33 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
 }
-th, td {
+
+th,
+td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
 }
+
 th {
   background-color: #f2f2f2;
 }
+
 img {
-  max-width: 15px;
-  max-height: 20px;
+  max-width: 50px; /* Adjust the maximum width of the image */
+  max-height: 50px; /* Adjust the maximum height of the image */
 }
+
 .button-group {
   margin-top: 10px;
 }
+
 button[type="button"] {
   margin-right: 10px;
 }
