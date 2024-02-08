@@ -52,3 +52,9 @@ img {
   max-width: 100px;
   max-height: 100px;
 }
+.button-group {
+  margin-top: 10px;
+}
+button[type="button"] {
+  margin-right: 10px;
+}
