@@ -12,16 +12,21 @@
     <form id="studentForm">
       <input type="text" id="name" placeholder="Name" required>
       <input type="number" id="age" placeholder="Age" required>
-      <input type="number" id="registerNumber" placeholder="Register Number" required>
-      <input type="number" id="emis" placeholder="EMIS" required>
-      <input type="number" id="admissionNumber" placeholder="Admission Number" required>
+      <input type="text" id="registerNumber" placeholder="Register Number" required>
+      <input type="text" id="emis" placeholder="EMIS" required>
+      <input type="text" id="admissionNumber" placeholder="Admission Number" required>
       <input type="date" id="dob" required>
       <input type="email" id="gmail" placeholder="Gmail ID" required>
       <input type="date" id="dateOfJoin" placeholder="Date of Join" required>
       <input type="date" id="dateOfLeave" placeholder="Date of Leave">
       <input type="file" id="photo" accept="image/*" required>
       <img id="preview" src="#" alt="Preview Image">
-      <button type="submit">Submit</button>
+      <div class="button-group">
+        <button type="submit">Submit</button>
+        <button type="button" id="deleteBtn">Delete</button>
+        <button type="button" id="updateBtn">Update</button>
+        <button type="button" id="clearBtn">Clear</button>
+      </div>
     </form>
 
     <table id="studentTable">
