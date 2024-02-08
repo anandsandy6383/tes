@@ -63,8 +63,8 @@ th {
 }
 
 img {
-  max-width: 50px; /* Adjust the maximum width of the image */
-  max-height: 50px; /* Adjust the maximum height of the image */
+  max-width: 5px; /* Adjust the maximum width of the image */
+  max-height: 5px; /* Adjust the maximum height of the image */
 }
 
 .button-group {
